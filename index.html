@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Convite Power Rangers - Pedro Henrique 6 Anos</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Open Graph / WhatsApp Preview -->
-  <meta property="og:title" content="Convite Power Rangers - Pedro Henrique 6 Anos">
+  <script src="script.js" defer></script> <meta property="og:title" content="Convite Power Rangers - Pedro Henrique 6 Anos">
   <meta property="og:description" content="Você está convidado para uma missão mega divertida! Dia 01/11/2025 às 17h no Espaço Magic Kids.">
   <meta property="og:image" content="https://pedrogalobsb.github.io/convite-PedroHenriqueFilho/img/banner.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://pedrogalobsb.github.io/convite-PedroHenriqueFilho/">
 
-  <!-- Para Twitter também -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Convite Power Rangers - Pedro Henrique 6 Anos">
   <meta name="twitter:description" content="Você está convidado para uma missão mega divertida!">
@@ -60,7 +57,6 @@
 
   <div class="convite-card max-w-3xl mx-auto bg-gray-800 text-white rounded-xl overflow-hidden text-center">
 
-    <!-- Banner -->
     <div class="relative h-64 md:h-80 overflow-hidden">
       <img 
         src="img/banner.jpg" 
@@ -78,7 +74,6 @@
       
       <p class="text-xl font-bold text-gray-300">O Power Ranger Vermelho está te convocando!</p>
       
-      <!-- Nome e Idade -->
       <div class="bg-red-600 rounded-lg p-3 inline-block shadow-lg">
         <h2 class="text-3xl md:text-4xl font-black uppercase text-white">Pedro Henrique Filho</h2>
       </div>
@@ -86,13 +81,32 @@
         Está MORFANDO para <span class="text-6xl text-white block">6 ANOS!</span>
       </p>
 
-      <!-- Imagens Fixas -->
+      <div class="pt-4">
+        <p class="text-lg font-bold text-gray-300 mb-4">Tempo restante para a missão:</p>
+        <div id="countdown" class="grid grid-cols-4 gap-2 md:gap-4 text-center max-w-md mx-auto">
+          <div class="info-box p-3 rounded-lg">
+            <span id="days" class="text-4xl md:text-5xl font-black text-white">00</span>
+            <span class="block text-xs font-bold text-yellow-400 mt-1">DIAS</span>
+          </div>
+          <div class="info-box p-3 rounded-lg">
+            <span id="hours" class="text-4xl md:text-5xl font-black text-white">00</span>
+            <span class="block text-xs font-bold text-yellow-400 mt-1">HORAS</span>
+          </div>
+          <div class="info-box p-3 rounded-lg">
+            <span id="minutes" class="text-4xl md:text-5xl font-black text-white">00</span>
+            <span class="block text-xs font-bold text-yellow-400 mt-1">MINUTOS</span>
+          </div>
+          <div class="info-box p-3 rounded-lg">
+            <span id="seconds" class="text-4xl md:text-5xl font-black text-white">00</span>
+            <span class="block text-xs font-bold text-yellow-400 mt-1">SEGUNDOS</span>
+          </div>
+        </div>
+      </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
         <img src="img/pedro-fantasiado.jpg" alt="Pedro Fantasiado Power Ranger" class="rounded-lg shadow-lg border-4 border-yellow-400 object-cover w-full">
         <img src="img/pedro-fantasiado2.jpeg" alt="Pedro Fantasiado Power Ranger" class="rounded-lg shadow-lg border-4 border-red-600 object-cover w-full">
       </div>
 
-      <!-- Informações -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
         
         <div class="info-box p-3 rounded-lg flex flex-col items-center">
@@ -117,7 +131,6 @@
         </div>
       </div>
 
-      <!-- Botão RSVP -->
       <div class="pt-4">
         <a 
           href="https://forms.gle/DKtjW6R2NX3shYNw6" 
